@@ -30,7 +30,7 @@ weights_1 = initialize_weights(hidden_layer_size, output_size)
 # configuration:
 alpha = 1.2 #The learning rate
 iterations = 100000 #Amount of iterations, aka epochs
-print_every = 10000 #Print the mean error of the network every 1000 iteration
+print_every = 10000 #Print the mean error of the network every 10000 iteration
 for i in range(iterations):
     # Forward Propagation
     # input data flows through layer 1 and layer 2
